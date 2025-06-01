@@ -8,5 +8,9 @@ def hello_world():  # put application's code here
     return 'Hello World!'
 
 
+@app.route("/login")
+def login():
+    return "login"
+
 if __name__ == '__main__':
     app.run()
